@@ -1,0 +1,122 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .newyear {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 50px;
+        background-color: #fff;
+    }
+    
+    .newyear .year1 {
+        color: #fff;
+        background-color: #111;
+    }
+    
+    body {
+        background-image: url("../countdowntimer/newyear.jpg");
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        justify-content: center;
+        min-height: 100vh;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .countdown-container {
+        display: flex;
+        text-align: center;
+        font-size: auto;
+    }
+    
+    .textis1 {
+        font-weight: 400px;
+        font-size: 6rem;
+        line-height: 1;
+        margin: 0 2rem;
+        color: #111;
+        background-color: #fff;
+    }
+    
+    .textis2 {
+        background-color: #111;
+        font-weight: 400px;
+        font-size: 6rem;
+        line-height: 1;
+        margin: 0 2rem;
+        color: #fff;
+    }
+    
+    .textis3 {
+        background-color: #111;
+        font-weight: 400px;
+        font-size: 6rem;
+        line-height: 1;
+        margin: 0 2rem;
+        color: #fff;
+    }
+    
+    .textis4 {
+        background-color: #fff;
+        font-weight: 400px;
+        font-size: 6rem;
+        line-height: 1;
+        margin: 0 2rem;
+        color: #111;
+    }
+    
+    .countdown-days .countdown-hours .countdown-minutes .countdown-seconds {
+        text-align: center;
+    }
+    
+    .countdown-days .countdown-hours .countdown-minutes .countdown-second span {
+        text-align: center;
+    }
+    
+    .hiD {
+        font-size: 50px;
+        color: #111;
+        background-color: lightgreen;
+    }
+    
+    .hiH {
+        font-size: 50px;
+        color: #111;
+        background-color: lightpink;
+    }
+    
+    .hiM {
+        color: #111;
+        font-size: 50px;
+        background-color: lightpink;
+    }
+    
+    .hiS {
+        font-size: 50px;
+        color: #111;
+        background-color: lightgreen;
+    }
+    /* footer section styling */
+    
+    footer {
+        background: #111;
+        padding: 15px 23px;
+        color: #fff;
+        text-align: center;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+    
+    footer span a {
+        text-decoration: none;
+    }
+    
+    footer span a:hover {
+        text-decoration: underline;
+    }
